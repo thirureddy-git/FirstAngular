@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
-}
+  names: string[] = ["Fred","Julie","Sam","Adam","Jennifer","Saanvi"];
+  isHungry:boolean = true;
+
+  currentDay:Date = new Date;
+  }
